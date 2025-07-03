@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="400.0" maxWidth="400.0" minHeight="400.0" minWidth="400.0" prefHeight="400.0" prefWidth="400.0" stylesheets="@../../../estilosResta.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.integradora1.RestaController">
+   <children>
+      <TextField fx:id="txt1" layoutX="82.0" layoutY="125.0" prefHeight="25.0" prefWidth="259.0" promptText="Ingrese el primer número" />
+      <TextField fx:id="txt2" layoutX="82.0" layoutY="188.0" prefHeight="25.0" prefWidth="259.0" promptText="Ingrese el segundo número" />
+      <Button fx:id="btnResultadoResta" layoutX="129.0" layoutY="264.0" mnemonicParsing="false" onAction="#onResultadoResta" text="Resultado" />
+      <Label layoutX="159.0" layoutY="41.0" text="Restar">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblResultado" layoutX="195.0" layoutY="231.0" />
+      <Button fx:id="btnVolver" layoutX="143.0" layoutY="315.0" mnemonicParsing="false" onAction="#onVolver" text="Menú" />
+   </children>
+</AnchorPane>
