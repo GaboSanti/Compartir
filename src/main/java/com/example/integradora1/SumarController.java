@@ -12,7 +12,6 @@ import javafx.scene.control.Button;
 import javafx.stage.Stage;
 import java.io.IOException;
 
-
 public class SumarController{
     @FXML private TextField num1;
     @FXML private TextField num2;
