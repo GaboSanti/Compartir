@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" stylesheets="@../../../styles/style_mul.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.integradora1.MultiplicarController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <TextField fx:id="txt1" />
+    <TextField fx:id="txt2" />
+
+    <Label fx:id="lblResultado" />
+    <Button fx:id="btnMultiplicar" onAction="#multiplicar" text="Multiplicar" />
+   <Button fx:id="btnVolver" mnemonicParsing="false" text="Volver al menú" />
+</VBox>
