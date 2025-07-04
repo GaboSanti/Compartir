@@ -27,7 +27,7 @@ public class RestaController{
             double numero1 = Double.parseDouble(txt1.getText());
             double numero2 = Double.parseDouble(txt2.getText());
             double resultado = numero1 - numero2;
-            lblResultado.setText("El resultado es: " + resultado);
+            lblResultado.setText("El resultado es: " + resultado); //hola gabriel
         });
     }
 
